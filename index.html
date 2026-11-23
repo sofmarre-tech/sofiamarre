@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&amp;family=Inter:wght@400;500&amp;display=swap">
 <style>
-[hidden]{display:none!important}html{scroll-behavior:smooth}body{margin:0;background:#FAF8F5}
+[hidden]{display:none!important}#testi-track::-webkit-scrollbar{display:none}html{scroll-behavior:smooth}body{margin:0;background:#FAF8F5}
 a{color:#2E2C2A}a:hover{color:#000000}
 .cards::-webkit-scrollbar{height:6px}.cards::-webkit-scrollbar-thumb{background:#D9D3CB;border-radius:3px}
 @media (max-width:640px){.cert-cell{width:auto!important}.cert-logo{justify-content:flex-start!important;height:auto!important;min-height:0;margin-bottom:12px}.cert-title{min-height:0!important}}
@@ -173,18 +173,28 @@ a{color:#2E2C2A}a:hover{color:#000000}
 </section>
 
 <section id="casos" style="background: #F1EDE7">
-<div style="max-width: 900px; margin: 0 auto; padding: 72px 24px; display: flex; flex-direction: column; align-items: center; gap: 32px">
-<figure style="width: 100%; box-sizing: border-box; margin: 0; background: #FFFFFF; border-radius: 16px; padding: clamp(28px, 4vw, 44px); display: flex; flex-direction: column; gap: 22px">
-<span aria-hidden="true" style="font-family: 'Jost', sans-serif; font-size: 4rem; line-height: 0.6; height: 22px; color: #E8C7AE">“</span>
-<blockquote style="margin: 0; display: flex; flex-direction: column; gap: 14px">
-<p style="margin: 0; font-family: 'Jost', sans-serif; font-style: italic; font-weight: 300; font-size: clamp(1.0625rem, 1.5vw, 1.1875rem); line-height: 1.6; color: #2E2C2A">Sofía acompañó a nuestro equipo de dirección durante más de tres años. En ese tiempo nos demostró la calidad de profesional y persona que es. Valoro mucho su capacidad para crear un espacio de confianza donde pudimos expresarnos con respeto, aceptando diferencias y construyendo acuerdos.</p><p style="margin: 0; font-family: 'Jost', sans-serif; font-style: italic; font-weight: 300; font-size: clamp(1.0625rem, 1.5vw, 1.1875rem); line-height: 1.6; color: #2E2C2A">Con su calidez humana y conocimientos logramos reuniones más efectivas, menos conflictos, mayor autonomía y mejoramos el clima de trabajo.</p><p style="margin: 0; font-family: 'Jost', sans-serif; font-style: italic; font-weight: 300; font-size: clamp(1.0625rem, 1.5vw, 1.1875rem); line-height: 1.6; color: #2E2C2A">Agradezco haberla conocido y recomendaría especialmente su acompañamiento a quienes deseen fortalecer sus equipos de trabajo desde la responsabilidad, el respeto y el liderazgo.</p>
-</blockquote>
-<figcaption style="display: flex; flex-direction: column; gap: 4px; border-top: 1px solid #ECE6DE; padding-top: 18px">
-<span style="font-family: 'Jost', sans-serif; font-weight: 500; font-size: 0.875rem; letter-spacing: 0.16em; text-transform: uppercase; color: #2E2C2A">Ing. Javier Armesto</span>
-</figcaption>
-</figure>
+<div style="max-width: 900px; margin: 0 auto; padding: 72px 24px; display: flex; flex-direction: column; align-items: center; gap: 28px">
+<div id="testi-track" style="width: 100%; display: flex; gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -webkit-overflow-scrolling: touch">
+<figure class="testi-slide" style="flex: 0 0 100%; scroll-snap-align: start; box-sizing: border-box; margin: 0; background: #FFFFFF; border-radius: 16px; padding: clamp(28px, 4vw, 44px); display: flex; flex-direction: column; gap: 22px"><span aria-hidden="true" style="font-family: 'Jost', sans-serif; font-size: 4rem; line-height: 0.6; height: 22px; color: #E8C7AE">“</span><blockquote style="margin: 0; display: flex; flex-direction: column; gap: 14px; flex: 1"><p style="margin: 0; font-family: 'Jost', sans-serif; font-style: italic; font-weight: 300; font-size: clamp(1.0625rem, 1.5vw, 1.1875rem); line-height: 1.6; color: #2E2C2A">El acompañamiento de Sofía durante 3 años fue una experiencia muy valiosa y un verdadero apoyo para mi gestión. En el día a día del centro, donde siempre aparecen temas urgentes y frentes abiertos, trabajar junto a ella me ayudó a parar la pelota, mirar las cosas con perspectiva y sentirme mucho más seguro en mi rol de liderazgo.</p><p style="margin: 0; font-family: 'Jost', sans-serif; font-style: italic; font-weight: 300; font-size: clamp(1.0625rem, 1.5vw, 1.1875rem); line-height: 1.6; color: #2E2C2A">Gracias a sus aportes pude encarar situaciones complejas con mayor claridad y tomar decisiones difíciles sin dar tantas vueltas. También me dio herramientas muy prácticas para manejar los vínculos dentro del equipo y, sobre todo, para darme cuenta de ciertos patrones de comportamiento —tanto míos como del grupo— que a veces condicionaban la dinámica diaria. Todo este recorrido lo hicimos en un clima de muchísimo respeto y confianza, destacando siempre su gran responsabilidad y compromiso en cada encuentro.</p></blockquote><figcaption style="border-top: 1px solid #ECE6DE; padding-top: 18px"><span style="font-family: 'Jost', sans-serif; font-weight: 500; font-size: 0.875rem; letter-spacing: 0.16em; text-transform: uppercase; color: #2E2C2A">Lic. Germán Escobar</span></figcaption></figure>
+<figure class="testi-slide" style="flex: 0 0 100%; scroll-snap-align: start; box-sizing: border-box; margin: 0; background: #FFFFFF; border-radius: 16px; padding: clamp(28px, 4vw, 44px); display: flex; flex-direction: column; gap: 22px"><span aria-hidden="true" style="font-family: 'Jost', sans-serif; font-size: 4rem; line-height: 0.6; height: 22px; color: #E8C7AE">“</span><blockquote style="margin: 0; display: flex; flex-direction: column; gap: 14px; flex: 1"><p style="margin: 0; font-family: 'Jost', sans-serif; font-style: italic; font-weight: 300; font-size: clamp(1.0625rem, 1.5vw, 1.1875rem); line-height: 1.6; color: #2E2C2A">Sofía acompañó a nuestro equipo de dirección durante más de tres años. En ese tiempo nos demostró la calidad de profesional y persona que es. Valoro mucho su capacidad para crear un espacio de confianza donde pudimos expresarnos con respeto, aceptando diferencias y construyendo acuerdos.</p><p style="margin: 0; font-family: 'Jost', sans-serif; font-style: italic; font-weight: 300; font-size: clamp(1.0625rem, 1.5vw, 1.1875rem); line-height: 1.6; color: #2E2C2A">Con su calidez humana y conocimientos logramos reuniones más efectivas, menos conflictos, mayor autonomía y mejoramos el clima de trabajo.</p><p style="margin: 0; font-family: 'Jost', sans-serif; font-style: italic; font-weight: 300; font-size: clamp(1.0625rem, 1.5vw, 1.1875rem); line-height: 1.6; color: #2E2C2A">Agradezco haberla conocido y recomendaría especialmente su acompañamiento a quienes deseen fortalecer sus equipos de trabajo desde la responsabilidad, el respeto y el liderazgo.</p></blockquote><figcaption style="border-top: 1px solid #ECE6DE; padding-top: 18px"><span style="font-family: 'Jost', sans-serif; font-weight: 500; font-size: 0.875rem; letter-spacing: 0.16em; text-transform: uppercase; color: #2E2C2A">Ing. Javier Armesto</span></figcaption></figure>
+</div>
+<div style="display: flex; align-items: center; gap: 20px">
+<button type="button" class="testi-arrow" data-dir="-1" aria-label="Testimonio anterior" style="width: 44px; height: 44px; border-radius: 999px; border: 1px solid #2E2C2A; background: transparent; color: #2E2C2A; font-size: 1.125rem; cursor: pointer">←</button>
+<div style="display: flex; gap: 10px"><button type="button" class="testi-dot" aria-label="Testimonio 1" style="width: 10px; height: 10px; padding: 0; border: 0; border-radius: 999px; background: #C1682B; cursor: pointer"></button><button type="button" class="testi-dot" aria-label="Testimonio 2" style="width: 10px; height: 10px; padding: 0; border: 0; border-radius: 999px; background: #D9D1C6; cursor: pointer"></button></div>
+<button type="button" class="testi-arrow" data-dir="1" aria-label="Testimonio siguiente" style="width: 44px; height: 44px; border-radius: 999px; border: 1px solid #2E2C2A; background: transparent; color: #2E2C2A; font-size: 1.125rem; cursor: pointer">→</button>
+</div>
 <a href="casos.html" style="background: #4A5240; color: #F2EAE1; text-decoration: none; padding: 15px 30px; border-radius: 999px; font-size: 0.9375rem; font-weight: 500; letter-spacing: 0.03em">Ver el caso completo →</a>
 </div>
+<script>
+(function(){var t=document.getElementById('testi-track');if(!t)return;var d=[].slice.call(document.querySelectorAll('.testi-dot'));
+function cur(){return Math.round(t.scrollLeft/(t.clientWidth+24));}
+function go(i){t.scrollTo({left:i*(t.clientWidth+24),behavior:'smooth'});}
+function upd(){var c=cur();d.forEach(function(b,k){b.style.background=k===c?'#C1682B':'#D9D1C6';});}
+t.addEventListener('scroll',function(){clearTimeout(t._u);t._u=setTimeout(upd,60);});
+d.forEach(function(b,k){b.addEventListener('click',function(){go(k);});});
+[].slice.call(document.querySelectorAll('.testi-arrow')).forEach(function(b){b.addEventListener('click',function(){var n=cur()+parseInt(b.dataset.dir,10);go(Math.max(0,Math.min(d.length-1,n)));});});
+})();
+</script>
 </section>
 
 <section id="publicaciones">
